@@ -35,7 +35,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > - `ls`      list files
+> > - `ls -a`   list files including hidden files
+> > - `ls -l`   list files in long format
+> > - `ls -lh`  list files in long format with human readable file size
+> > - `ls -lah` list files, including hidden ones, in long format with human readable size
+> > - `ls -t`   list files by time
+> > - `ls -Glp` list files using colorized output, in long format and include slash for folders
 
 ---
 
@@ -51,7 +57,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` is for passing argument list. For example, `find ./ -type f -print | xargs grep "python'`: find all files under current directory, pass to grep to search for the word "python".
 
  
 
